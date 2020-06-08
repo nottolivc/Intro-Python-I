@@ -10,7 +10,8 @@ z = "I like turtles!"
 
 # Using the printf operator (%), print the following feeding in the values of x,
 # y, and z:
-# x is 10, y is 2.25, z is "I like turtles!"
+# x is 10, y is 2.25, z is "I like turtles!" 
+# needs to be assigned data types to print first example int float and string
 print("x is %(x)i, y is %(y)f, z is \"%(z)s\"" % 
         {"x" : x, "y" : y, "z" : z})
 
